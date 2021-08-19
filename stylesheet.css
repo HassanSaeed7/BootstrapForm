@@ -16,11 +16,22 @@ nav {
     display: flex;
     position: relative;
     justify-content: space-around;
+    width: 100%;
 }
 .navbar-links ul {
     display: inline-flex;
     list-style: none;
+
 }
 .navbar-links li {
+    padding: 5%;
+}
+.navbar-links a {
     text-decoration: none;
+}
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+.nav-title {
+    font-size: 3em;
 }
