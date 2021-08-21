@@ -4,9 +4,6 @@
 html {
     scroll-behavior: smooth;
   }
-.black {
-    background: black;
-}
 .container {
     position: absolute;
     margin-top: 65px;
